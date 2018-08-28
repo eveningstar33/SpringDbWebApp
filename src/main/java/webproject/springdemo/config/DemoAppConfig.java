@@ -58,8 +58,6 @@ public class DemoAppConfig implements WebMvcConfigurer {
 		// set the jdbc driver
 		try {
 			myDataSource.setDriverClass(env.getProperty("jdbc.driver"));		
-			
-			System.out.println(" >>>>>>>>>><<<<<<<<<< jdbc.driver=" + env.getProperty("jdbc.driver"));
 		}
 		catch (PropertyVetoException exc) {
 			throw new RuntimeException(exc);
