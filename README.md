@@ -64,12 +64,9 @@ layer for the custom business logic. It is used to integrate data from multiple 
 
 **The Big Picture**
 
-The browser will make a request to the Customer Controller. The Customer Controller is gonna make use of this intermediate layer,
-the Customer Service, then the Customer Service will call the Customer DAO. This DAO will actually access the database using 
-the Hibernate API. Then we’ll get the data back from the database and then the controller will place that into the Spring MVC 
-model and then send that over to the JSP pages. And then finally, the JSP pages will render that data to the screen. 
+The browser will make a request to the Customer Controller. The Customer Controller is gonna make use of this intermediate layer, the Customer Service, then the Customer Service will call the Customer DAO. This DAO will actually access the database using the Hibernate API. Then we’ll get the data back from the database and then the controller will place that into the Spring MVC model and then send that over to the JSP pages. And then finally, the JSP pages will render that data to the screen. 
 
-![Screenshot](p2.jpg)   
+![Screenshot](p2.png)   
  
 **Spring Security Login Proccess**
 
