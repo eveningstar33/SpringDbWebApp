@@ -69,8 +69,8 @@ the Customer Service, then the Customer Service will call the Customer DAO. This
 the Hibernate API. Then we’ll get the data back from the database and then the controller will place that into the Spring MVC 
 model and then send that over to the JSP pages. And then finally, the JSP pages will render that data to the screen. 
 
-![Screenshot](p2.jpg)
-
+![Screenshot](p2.jpg)   
+ 
 **Spring Security Login Proccess**
 
 Spring Security defines a framework for security. It’s implemented using Servlet filters in the background. 
