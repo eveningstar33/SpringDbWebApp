@@ -1,7 +1,7 @@
 # SpringDbWebApp
 Complete Database Web App with Spring MVC, Spring Security, Hibernate, Bootstrap, Maven and more 
 
-The web app was deployed on AWS Cloud --> [Spring Database Web App](http://spring-security-crm.us-east-2.elasticbeanstalk.com/showMyLoginPage)
+The web app was deployed on AWS Cloud --> [Spring Database Web App]( spring-security.us-east-2.elasticbeanstalk.com )
 
 This project is based on:
 -	Spring core
