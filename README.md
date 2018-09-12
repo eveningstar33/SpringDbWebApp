@@ -36,6 +36,14 @@ There are 3 users in the database:
 2.	mary • user id: mary • password: fun123 • Role: employee, manager 
 3.	susan • user id: susan • password: fun123 • Role: employee, admin
 
+The users are stored in a MySQL database. There are 2 linked tables:
+
+![Screenshot](users.jpg)
+
+Also there is another database with one table for customers:
+
+![Screenshot](customer.jpg)
+
 ![Screenshot](admin.jpg)
 
 **DAO Layer - Data Access Object Desing Pattern**
